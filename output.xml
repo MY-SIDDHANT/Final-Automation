@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on darwin)" generated="2026-01-27T22:47:28.313275" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotFramework" source="/Users/siddhantingwale/PycharmProjects/RobotFramework">
+<suite id="s1-s1" name="Test" source="/Users/siddhantingwale/PycharmProjects/RobotFramework/Test">
+<suite id="s1-s1-s1" name="testDemo1" source="/Users/siddhantingwale/PycharmProjects/RobotFramework/Test/testDemo1.robot">
+<test id="s1-s1-s1-t1" name="Validate UnSuccessful Login" line="7">
+<kw name="Open Browser with Mortgage payment url">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2026-01-27T22:47:28.424614" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2026-01-27T22:47:28.424537" elapsed="1.229942"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-27T22:47:29.655209" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-27T22:47:29.654974" elapsed="2.151474"/>
+</kw>
+<status status="PASS" start="2026-01-27T22:47:28.424183" elapsed="3.382765"/>
+</kw>
+<kw name="Fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-27T22:47:31.808560" level="INFO">Typing text 'rahulshettyacademy' into text field 'id:username'.</msg>
+<arg>id:username</arg>
+<arg>rahulshettyacademy</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-27T22:47:31.808098" elapsed="0.116457"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-01-27T22:47:31.924829" level="INFO">Typing password into text field 'id:password'.</msg>
+<msg time="2026-01-27T22:47:31.937919" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id:password</arg>
+<arg>12345678</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-27T22:47:31.924674" elapsed="0.035356"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-01-27T22:47:31.960243" level="INFO">Clicking button 'id:signInBtn'.</msg>
+<arg>id:signInBtn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-27T22:47:31.960135" elapsed="0.044456"/>
+</kw>
+<status status="PASS" start="2026-01-27T22:47:31.807781" elapsed="0.196895"/>
+</kw>
+<status status="PASS" start="2026-01-27T22:47:28.423840" elapsed="3.581046"/>
+</test>
+<doc>To validate the Login form</doc>
+<status status="PASS" start="2026-01-27T22:47:28.329084" elapsed="3.676214"/>
+</suite>
+<status status="PASS" start="2026-01-27T22:47:28.328711" elapsed="3.676961"/>
+</suite>
+<status status="PASS" start="2026-01-27T22:47:28.313823" elapsed="3.692040"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="RobotFramework" id="s1" pass="1" fail="0" skip="0">RobotFramework</stat>
+<stat name="Test" id="s1-s1" pass="1" fail="0" skip="0">RobotFramework.Test</stat>
+<stat name="testDemo1" id="s1-s1-s1" pass="1" fail="0" skip="0">RobotFramework.Test.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
